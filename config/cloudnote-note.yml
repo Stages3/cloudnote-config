@@ -7,6 +7,6 @@ eureka:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sh-cynosdbmysql-grp-9w6mdjdg.sql.tencentcdb.com:27033/cloudnote
+    url: jdbc:mysql://sh-cynosdbmysql-grp-9w6mdjdg.sql.tencentcdb.com:27033/cloudnote?useUnicode=true&amp;characterEncoding=UTF-8
     username: root
     password: a@12345678
